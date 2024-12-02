@@ -1,12 +1,15 @@
+@media screen and (max-width: 367px) { 
+    
+}
 * {
     margin: 0%;
     padding: 0%;
-    font-family: Arial, sans-serif;  /* Exemplo de fonte */
+    font-family: Arial, sans-serif;  
 }
 header {
     display: flex;
-    justify-content: center;  /* Centraliza horizontalmente */
-    align-items: center;      /* Centraliza verticalmente */
+    justify-content: center;
+    align-items: center;
 }
 ul {
     list-style-type: none;
