@@ -1,0 +1,17 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, sans-serif;  /* Exemplo de fonte */
+}
+header {
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;      /* Centraliza verticalmente */
+}
+ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+li {
+    margin: 10%;
+}
