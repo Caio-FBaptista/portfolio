@@ -1,0 +1,12 @@
+@media screen and (max-widht: 375px) {
+
+* {
+    display: flex;
+    position:absolute;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    justify-content: center;
+}
+}
