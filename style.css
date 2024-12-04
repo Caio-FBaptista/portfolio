@@ -1,12 +1,13 @@
-@media screen and (max-widht: 375px) {
-
 * {
     display: flex;
-    position:absolute;
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
 }
-body {
-    justify-content: center;
+nav {
+    display: block;
+    position: fixed;
 }
+li {
+    display: flex;
+    text-decoration: none;
 }
