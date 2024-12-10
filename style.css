@@ -10,9 +10,9 @@
 .project {
     flex: 1 1 calc(200px - 1rem);
     text-align: center;
-    max-width: 30rem;
-    margin: 0.8rem;
+    max-width: 40rem;
+    margin: 0.3rem;
     border: 1px solid black;
-    background-color: gray;
-    border-radius: 0.8rem;
+    background-color: rgb(211, 211, 211);
+    border-radius: 0.3rem;
 }
