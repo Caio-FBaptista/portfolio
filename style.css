@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
 }
-/*header*/
+.sessao {
+    text-align: center;
+}
 
 /*Projetos*/
 .container {
@@ -13,6 +17,7 @@
 .project {
     flex: 1 1 calc(200px - 1rem);
     text-align: center;
+    padding: 1rem;
     max-width: 40rem;
     margin: 0.3rem;
     border: 1px solid black;
