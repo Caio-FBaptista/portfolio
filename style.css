@@ -5,10 +5,6 @@
     box-sizing: border-box;
     font-family: "Lexend Deca", sans-serif;
 }
-.sessao {
-    text-align: center;
-}
-
 /*Projetos*/
 .container {
     display: flex;
