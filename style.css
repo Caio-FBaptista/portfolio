@@ -5,6 +5,16 @@
     box-sizing: border-box;
     font-family: "Lexend Deca", sans-serif;
 }
+/*Topo*/
+header {
+    text-align: center;
+    margin: 0.8rem;
+}
+li {
+    display: inline-flex;
+    text-decoration: none;
+    margin: 0.5rem;
+}
 /*Projetos*/
 .container {
     display: flex;
