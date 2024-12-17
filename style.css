@@ -15,6 +15,7 @@ header {
     position: absolute;
     margin: 0.5rem;
     left: 5rem;
+    color: yellow;
 }
 nav {
     text-align: center;
@@ -26,7 +27,7 @@ li {
     transition: 0.5s;
 }
 li:hover {
-    color: orange;
+    color: yellow;
     transform: translateY(-5px);
     transition: 0.5s;
 }
