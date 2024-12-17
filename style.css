@@ -6,6 +6,7 @@
     font-family: "Lexend Deca", sans-serif;
 }
 header {
+    position: static;
     background-color: #1f1f1f;
     color: white;
 }
@@ -22,4 +23,10 @@ li {
     text-decoration: none;
     display: inline-flex;
     margin: 0.8rem;
+    transition: 0.5s;
+}
+li:hover {
+    color: orange;
+    transform: translateY(-5px);
+    transition: 0.5s;
 }
