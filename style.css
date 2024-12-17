@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+/*Cores
+#717D69
+#AAB6A2
+#E1B23C
+#FFD54B
+#F5F7EC
+*/
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +13,10 @@
     font-family: "Lexend Deca", sans-serif;
 }
 header {
-    position: static;
-    background-color: #1f1f1f;
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    background-color: #717D69;
     color: white;
 }
 #logo {
@@ -15,7 +24,7 @@ header {
     position: absolute;
     margin: 0.5rem;
     left: 5rem;
-    color: yellow;
+    color: #FFD54B;
 }
 nav {
     text-align: center;
@@ -26,8 +35,15 @@ li {
     margin: 0.8rem;
     transition: 0.5s;
 }
-li:hover {
-    color: yellow;
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover {
+    color: #FFD54B;
     transform: translateY(-5px);
     transition: 0.5s;
+}
+.section {
+    scroll-margin-top: 100px;
 }
