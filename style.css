@@ -18,9 +18,6 @@ header {
 nav {
     text-align: center;
 }
-ul{
-    /*loading*/
-}
 li {
     text-decoration: none;
     display: inline-flex;
