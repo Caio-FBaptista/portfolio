@@ -41,20 +41,17 @@ li {
 }
 a {
     text-decoration: none;
-    text-transform: uppercase;
+    transition: 0.2s;
 }
 a:hover {
     color: #FFD54B;
-    transform: translateY(-5px);
-    transition: 0.5s;
+    transform: translateY(-2px);
+    transition: 0.2s;
 }
 :visited {
     color: white;
 }
-.sections {
+#sections {
     scroll-margin-top: 70px;
     margin-top: 5rem;
-}
-.section {
-    margin-bottom: 2rem;
 }
