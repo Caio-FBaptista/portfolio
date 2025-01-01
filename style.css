@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
-/*Cores
-#717D69
-#AAB6A2
-#E1B23C
-#FFD54B
-#F5F7EC
-*/
+:root {
+    --primaria:#1F1F1F;
+    --secundaria:#FFD54B;
+    --fundo:#FFFEE7;
+    --botao:#3B002A;
+    --texto:#ffffff;
+}
 * {
     margin: 0;
     padding: 0;
@@ -13,14 +13,14 @@
     font-family: "Lexend Deca", sans-serif;
 }
 body {
-    background-color: #F5F7EC;
+    background-color: var(--fundo);
 }
 header {
     box-sizing: border-box;
     width: 100%;
     position: fixed;
-    background-color: #717D69;
-    color: white;
+    background-color: var(--primaria);
+    color: var(--texto);
     top: 0;
 }
 #logo {
@@ -28,7 +28,7 @@ header {
     position: absolute;
     margin: 0.5rem;
     left: 5rem;
-    color: #FFD54B;
+    color: var(--secundaria);
 }
 nav {
     text-align: center;
@@ -44,7 +44,7 @@ a {
     transition: 0.2s;
 }
 a:hover {
-    color: #FFD54B;
+    color: var(--secundaria);
     transform: translateY(-2px);
     transition: 0.2s;
 }
