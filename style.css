@@ -62,8 +62,29 @@ a:hover {
     gap: 2rem;
 }
 #inicio h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10rem;
 }
 #inicio figure {
     margin: 0;
+}
+button {
+    display: flex;
+    position: absolute;
+    margin-right: 58rem;
+    margin-top: 5rem;
+    border-radius: 1.25rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: var(--botao);
+    color: var(--texto);
+}
+span {
+    color: gray;
+    font-size: 1rem;
+}
+figure {
+    max-width: 500px;
 }
