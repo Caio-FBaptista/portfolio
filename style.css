@@ -55,3 +55,15 @@ a:hover {
     scroll-margin-top: 70px;
     margin-top: 5rem;
 }
+#inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+#inicio h1 {
+    font-size: 1.8rem;
+}
+#inicio figure {
+    margin: 0;
+}
