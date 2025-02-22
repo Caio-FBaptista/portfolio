@@ -1,0 +1,52 @@
+@font-face {
+    font-family: EavesBold;
+    src: url(src/font/MrEavesXLModNarOT-Bold.ttf);
+}
+@font-face {
+    font-family: EavesRegular;
+    src: url(src/font/MrEavesXLModOT-Reg.ttf);
+}
+:root {
+    --primary-text: #ffff;
+    --secundary-text: #af2a42;
+    --header-bg: #161b1f;
+    --bg: #1f1f1f;
+    --primary-font: EavesRegular;
+    --secundary-font: EavesBold;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+    font-size: 1rem;
+}
+html {
+    scroll-behavior: smooth;
+}
+header {
+    display: flexbox;
+    text-align: center;
+}
+#burguer {
+    display: block;
+    background-color: var(--bg);
+    color: var(--secundary-text);
+    font-size: 2rem;
+    padding: 0.2rem;
+}
+#itens {
+    display: none;
+    background-color: var(--bg);
+    color: var(--primary-text);
+    opacity: 80%;
+}
+#itens li {
+    list-style: none;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+#itens li:hover {
+    text-decoration-color: var(--secundary-text);
+    text-decoration-line: overline;
+}
